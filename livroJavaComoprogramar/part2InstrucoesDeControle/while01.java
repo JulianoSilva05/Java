@@ -1,4 +1,3 @@
-package livro:Java Como programar.part2: Instruções de controle;
 /*
  * 5.2 Princípios básicos de repetição controlada por contador
 Esta seção utiliza a instrução de repetição while introduzida no Capítulo 4 a fim de formalizar os elementos necessários para realizar a repetição controlada por contador, o que requer:
@@ -12,7 +11,9 @@ public class while01 {
         int counter = 1;//declara e inicializa a variavel de controle
 
         while ( counter <= 10 ){ // condição de continuação do loop
-        
+            System.out.printf("%d ", counter);
+            ++counter; //variável de controle de incremento
         }
+        System.out.println();
     }
-}
+}//fim da classe while01
